@@ -1,0 +1,71 @@
+.header {
+  font-family: "MonteCarlo", cursive;
+}
+.navigation-link {
+  border: 2px solid transparent;
+}
+.navigation-link:hover {
+  text-decoration: none;
+  border-bottom: 2px solid #d1a775;
+  transition: 0.5s ease;
+  color: #d1a775;
+}
+
+.text-black {
+  color: black;
+}
+
+.header-wrapper {
+  background: #fad5dd;
+  width: 100%;
+  /* filter: drop-shadow(6px 6px 3px grey); */
+}
+.gallery {
+  background: #d1a775;
+}
+
+.packages {
+  text-align: center;
+}
+#packages1 {
+  background-color: #fce5eb;
+}
+#packages2 {
+  background-color: #f4deb8;
+}
+.Contact {
+  background: black;
+  text-align: center;
+}
+
+.aboutDetails {
+  text-align: center;
+  font-size: 11pt;
+  color: grey;
+}
+.contacttext {
+  color: white;
+}
+
+p {
+  animation-duration: 2s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  75% {
+    font-size: 100%;
+    margin-left: 10%;
+    width: 70%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
