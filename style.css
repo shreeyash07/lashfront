@@ -14,7 +14,9 @@
 .text-black {
   color: black;
 }
-
+.text-white {
+  color: white;
+}
 .header-wrapper {
   background: #fad5dd;
   width: 100%;
@@ -26,6 +28,7 @@
 
 .packages {
   text-align: center;
+  border-bottom: grey;
 }
 #packages1 {
   background-color: #fce5eb;
@@ -36,6 +39,7 @@
 .Contact {
   background: black;
   text-align: center;
+  height: 200px;
 }
 
 .aboutDetails {
