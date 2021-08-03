@@ -42,7 +42,7 @@
 }
 
 #packages1 {
-    background-color: #fce5eb;
+    /* background-color: #fce5eb; */
 }
 
 #packages2 {
@@ -58,7 +58,7 @@
 .aboutDetails {
     text-align: left;
     font-size: 11pt;
-    color: grey;
+    color: #333;
 }
 
 .contacttext {
