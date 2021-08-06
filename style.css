@@ -1,87 +1,87 @@
 .header {
-    font-family: "MonteCarlo", cursive;
+  font-family: "MonteCarlo", cursive;
 }
 
 .navigation-link {
-    border: 2px solid transparent;
+  border: 2px solid transparent;
 }
 
 .nav {
-    padding-bottom: 2rem;
+  padding-bottom: 2rem;
 }
 
 .navigation-link:hover {
-    text-decoration: none;
-    /* border-bottom: 2px solid #d1a775; */
-    transition: 0.5s ease;
-    color: #d1a775;
+  text-decoration: none;
+  /* border-bottom: 2px solid #d1a775; */
+  transition: 0.5s ease;
+  color: #d1a775;
 }
 
 .text-black {
-    color: black;
+  color: black;
 }
 
 .text-white {
-    color: white;
+  color: white;
 }
 
 .header-wrapper {
-    background: #ffff;
-    width: 100%;
-    border-bottom: 1px solid #e6aec5;
-    /* filter: drop-shadow(6px 6px 3px grey); */
+  background: #ffff;
+  width: 100%;
+  border-bottom: 1px solid #e6aec5;
+  /* filter: drop-shadow(6px 6px 3px grey); */
 }
 
 .gallery {
-    background: #d1a775;
+  background: #d1a775;
 }
 
 .packages {
-    text-align: center;
-    border-bottom: grey;
+  text-align: center;
+  border-bottom: grey;
 }
 
 #packages1 {
-    /* background-color: #fce5eb; */
+  /* background-color: #fce5eb; */
 }
 
 #packages2 {
-    background-color: #f4deb8;
+  background-color: #f4deb8;
 }
 
 .Contact {
-    background: black;
-    text-align: center;
-    height: 200px;
+  background: black;
+  text-align: center;
+  height: 200px;
 }
 
 .aboutDetails {
-    text-align: left;
-    font-size: 11pt;
-    color: #333;
+  /* text-align: left; */
+  font-size: 10pt;
+  color: #333;
 }
 
 .contacttext {
-    color: white;
+  color: white;
 }
 
 p {
-    animation-duration: 2s;
-    animation-name: slidein;
+  animation-duration: 2s;
+  animation-name: slidein;
 }
 
 @keyframes slidein {
-    from {
-        margin-left: 100%;
-        width: 300%;
-    }
-    75% {
-        font-size: 100%;
-        margin-left: 10%;
-        width: 70%;
-    }
-    to {
-        margin-left: 0%;
-        width: 100%;
-    }
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+  75% {
+    font-size: 100%;
+    margin-left: 10%;
+    width: 70%;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
 }
