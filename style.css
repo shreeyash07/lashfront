@@ -1,9 +1,13 @@
+html {
+  scroll-behavior: smooth;
+}
 .header {
   font-family: "MonteCarlo", cursive;
 }
 
 .navigation-link {
   border: 2px solid transparent;
+  color: #333;
 }
 
 .nav {
@@ -12,9 +16,9 @@
 
 .navigation-link:hover {
   text-decoration: none;
-  /* border-bottom: 2px solid #d1a775; */
+  border-bottom: 2px solid #e3ae53;
   transition: 0.5s ease;
-  color: #d1a775;
+  color: #e3ae53;
 }
 
 .text-black {
@@ -46,7 +50,7 @@
 }
 
 #packages2 {
-  background-color: #f4deb8;
+  /* background-color: #f4deb8; */
 }
 
 .Contact {
