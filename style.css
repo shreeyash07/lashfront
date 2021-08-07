@@ -24,6 +24,10 @@ html {
 .text-black {
   color: black;
 }
+.nav-text {
+  text-align: right;
+  margin-right: 20px;
+}
 
 .text-white {
   color: white;
@@ -63,6 +67,11 @@ html {
   /* text-align: left; */
   font-size: 10pt;
   color: #333;
+}
+
+.carousel-image {
+  height: 30rem;
+  object-fit: cover;
 }
 
 @media (max-width: 680px) {
