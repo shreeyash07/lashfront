@@ -29,8 +29,8 @@ html {
   margin-right: 20px;
 }
 
-.text-white {
-  color: white;
+.contact-decoration {
+  list-style: none;
 }
 
 .header-wrapper {
@@ -60,7 +60,7 @@ html {
 .Contact {
   background: black;
   text-align: center;
-  height: 200px;
+  /* height: 200px; */
 }
 
 .aboutDetails {
@@ -73,7 +73,28 @@ html {
   height: 30rem;
   object-fit: cover;
 }
+.name {
+  width: 90%;
+  background-color: #444444;
+  height: 20px;
+}
+.email {
+  width: 90%;
+  background-color: #444444;
+  height: 20px;
+  margin-top: 2%;
+}
+.message {
+  width: 90%;
 
+  height: 100px;
+  margin-top: 2%;
+  background-color: #444444;
+}
+input {
+  background: transparent;
+  border: 0px;
+}
 @media (max-width: 680px) {
   .aboutDetails {
     /* text-align: left; */
