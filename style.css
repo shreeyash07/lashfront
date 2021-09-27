@@ -58,7 +58,7 @@ html {
 }
 
 .Contact {
-  background: black;
+  background: #fcd9e0;
   text-align: center;
   /* height: 200px; */
 }
@@ -108,5 +108,5 @@ input {
 }
 
 .contacttext {
-  color: white;
+  color: black;
 }
