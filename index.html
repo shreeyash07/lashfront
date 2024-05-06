@@ -1,411 +1,451 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
-  <title>Lash Paradise</title>
-  <!-- css -->
-  <link rel="stylesheet" href="style.css" />
-  <link rel="stylesheet" href="gallery.css" />
+        <title>Lash Paradise</title>
+        <!-- css -->
+        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="gallery.css" />
 
-  <!-- font -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=MonteCarlo&display=swap" rel="stylesheet" />
+        <!-- font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=MonteCarlo&display=swap" rel="stylesheet" />
 
-  <!-- bootstrap -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
-    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous" />
+        <!-- bootstrap -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+                               integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous" />
 
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
-    crossorigin="anonymous"></script>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-205761012-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-    gtag("js", new Date());
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+                integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+                crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+                crossorigin="anonymous"></script>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-205761012-1"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag("js", new Date());
 
-    gtag("config", "UA-205761012-1");
-  </script>
-</head>
+            gtag("config", "UA-205761012-1");
+        </script>
+    </head>
 
-<body>
-  <!-- header -->
-  <div class="header-wrapper">
-    <nav class="navbar-expand-lg navbar-light container pt-3">
-      <div class="row">
-        <div class="col-6 d-flex header">
-          <h1 class="" style="padding-left: 3rem; color: #e3ae53">
-            Lash Paradise
-          </h1>
+    <body>
+        <!-- header -->
+        <div class="header-wrapper">
+            <nav class="navbar-expand-lg navbar-light container pt-3">
+                <div class="row">
+                    <div class="col-6 d-flex header">
+                        <h1 class="" style="padding-left: 3rem; color: #e3ae53">
+                            Lash Paradise
+                        </h1>
+                    </div>
+                    <div class="col-6 pt-2">
+                        <div class="row justify-content-end nav">
+                            <button class="navbar-toggler mr-3" type="button" data-toggle="collapse"
+                                                                              data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                                                                                                                                                           aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+
+                            <div class="collapse nav-text navbar-collapse" id="navbarSupportedContent">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item ml-5">
+                                        <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+                                    </li>
+                                    <li class="nav-item ml-5">
+                                        <a class="nav-link" href="#about1">About</a>
+                                    </li>
+                                    <li class="nav-item ml-5">
+                                        <a class="nav-link" href="#gallery1">Gallery</a>
+                                    </li>
+                                    <li class="nav-item ml-5">
+                                        <a class="nav-link" href="#packages1">Packages</a>
+                                    </li>
+                                    <li class="nav-item ml-5">
+                                        <a class="nav-link" href="#contact1">Contact</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
         </div>
-        <div class="col-6 pt-2">
-          <div class="row justify-content-end nav">
-            <button class="navbar-toggler mr-3" type="button" data-toggle="collapse"
-              data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-              aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
+        <!-- body -->
+        <div class="body-wrapper">
+            <!-- gallery -->
+            <!-- <div class="gallery pb-5 pt-3">
+                <div class="container pt-3">
+                <div class="row">
+                <div class="col-6"></div>
+                </div>
+                </div>
+                </div> -->
+                <!-- about -->
+                <div id="about1" class="about pt-4 pb-4" style="margin-top: 3rem">
+                    <div class="container">
+                        <div class="row p-5">
+                            <h1><b>Notice: </b></h1>
+                            <p class="aboutDetails">
+                                <b>
+                                    Attention Please!!!
+                                </b>
+                                <br>
+                                <br>Any client who fails to show or cancels/reschedules an appointment with less
+                                than 24 hours notice will be considered as No Show and will be charged 50% of the service fee, and is due at
+                                the time of the customer’s next salon visit.
 
-            <div class="collapse nav-text navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav">
-                <li class="nav-item ml-5">
-                  <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item ml-5">
-                  <a class="nav-link" href="#about1">About</a>
-                </li>
-                <li class="nav-item ml-5">
-                  <a class="nav-link" href="#packages1">Packages</a>
-                </li>
-                <li class="nav-item ml-5">
-                  <a class="nav-link" href="#contact1">Contact</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </nav>
-  </div>
-  <!-- body -->
-  <div class="body-wrapper">
-    <!-- gallery -->
-    <!-- <div class="gallery pb-5 pt-3">
-<div class="container pt-3">
-<div class="row">
-<div class="col-6"></div>
-</div>
-</div>
-</div> -->
-    <!-- about -->
-    <div id="about1" class="about pt-4 pb-4" style="margin-top: 3rem">
-      <div class="container">
-        <div class="row">
-          <h1><b>Notice: </b></h1>
-          <p class="aboutDetails">
-            <b>
+                                Please note, if No Show or Cancellation/Reschedules with no 24 hours notice should occur more than twice no
+                                further appointments are made available to that respective new/existing clients.
+                                <br>
+                                <br> Thank you your understanding and cooperation,
 
-              Attention Please!!!
-            </b>
-            <br>
-            <br>Effective November 1, 2021 any client who fails to show or cancels/reschedules an appointment with less
-            than 24 hours notice will be considered as No Show and will be charged 50% of the service fee, and is due at
-            the time of the customer’s next salon visit.
+                                <br>Lash Paradise Family 🙏🙏
+                            </p>
+                        </div>
+                        <div class="row justify-content-between">
+                            <div class="col-lg-6 col-md-4 col-sm-12 text-md-center pt-5">
+                                <img src="./images/logo.jpeg" class="img-fluid" width="100%" height="20" alt="logo" />
+                            </div>
 
-            Please note, if No Show or Cancellation/Reschedules with no 24 hours notice should occur more than twice no
-            further appointments are made available to that respective new/existing clients.
-            <br>
-            <br> Thank you your understanding and cooperation,
+                            <div class="col-lg-6 col-md-8 col-sm-12 align-content-left pl-5 pt-5">
+                                <div class="row justify-content-left">
+                                    <h1><b>About Us</b></h1>
+                                    <p class="aboutDetails">
+                                        Lash Paradise is committed to live up to its name, by making
+                                        the experience of each individual who visits most welcoming,
+                                        offering the best service to the full satisfaction at the hand
+                                        of our experienced Esthetician while enjoying the serene
+                                        ambience and friendly dealing through the best possible
+                                        convenient dealings and thus, make effort to establish
+                                        connection. We proudly offer our specialization in the
+                                        technique called Individual Eyelash Extension. Our highly
+                                        experienced estheticians meticulously apply single strands of
+                                        synthetic, undetectable, weightless enhancement to replicate a
+                                        natural lashes, by extending the length and thickness to your
+                                        natural lashes turning them into beautiful and luscious look.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- packages -->
+                <div id="gallery1" class="packages pt-5 pb-5">
+                    <h1 class="mb-3 container pt-3 pb-2"><b>Gallery</b></h1>
+                    <div class="container">
+                        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"/>
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="1"/>
+                                        <li data-target="#carouselExampleIndicators" data-slide-to="2"/>
+                                            <li data-target="#carouselExampleIndicators" data-slide-to="3"/>
+                                                <li data-target="#carouselExampleIndicators" data-slide-to="4"/>
+                                                    <li data-target="#carouselExampleIndicators" data-slide-to="5"/>
+                                                        <li data-target="#carouselExampleIndicators" data-slide-to="6"/>
+                                                            <li data-target="#carouselExampleIndicators" data-slide-to="7"/>
+                            </ol>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img class="w-100 carousel-image" src="images/img7.jpg" alt="..." />
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="w-100 carousel-image" src="images/img3.jpg" alt="..." />
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="w-100 carousel-image" src="images/img11.jpg" alt="..." />
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="w-100 carousel-image" src="images/img10.JPG" alt="..." />
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="w-100 carousel-image" src="images/c5.jpg" alt="..." />
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="w-100 carousel-image" src="images/c6.jpg" alt="..." />
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="w-100 carousel-image" src="images/img4.jpg" alt="..." />
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="w-100 carousel-image" src="images/img5.jpg" alt="..." />
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div id="packages1" class="container">
+                        <h1 class="mb-3 container pt-3 pb-2"><b>Packages</b></h1>
+                        <h2 class="mb-3 container pt-3 pb-2"><b>Price list</b></h1>
+                        <p><b>Note:</b> Old lashes removal price depends on the amount of the jobs to be done</p>
+                        <div class="price-list-container">
+                            <div class="price-list-content">
+                                <div class="price-card">
+                                    <p class="price-list-title">Price for Hybrid sets</p>
+                                    <p><b>1. Full set of Hybrid Lashes: 100 Lashes Per Eye $135</b></p>
+                                    <p><b>2. Full set of Hybrid Lashes: 120 Lashes Per Eye $170</b></p>
+                                    <p class="price-list-sub-title">Hybrid Lashes Touch ups</p>
+                                    <p class="price-list-sub-sub-title">A. Touch Ups for 100 Hybrid Lashes</p>
+                                    <div class="week-price">
+                                        <p>1 Week Refill</p>
+                                        <p>$60</p>
+                                    </div>
+                                    <div class="week-price">
+                                        <p>2 Weeks Refill</p>
+                                        <p>$80</p>
+                                    </div>
+                                    <div class="week-price">
+                                        <p>3 Weeks Refill</p>
+                                        <p>$100</p>
+                                    </div>
+                                    <p class="price-list-sub-sub-title">B. Touch Ups for 120 Hybrid Lashes</p>
+                                    <div class="week-price">
+                                        <p>1 Week Refill</p>
+                                        <p>$75</p>
+                                    </div>
+                                    <div class="week-price">
+                                        <p>2 Weeks Refill</p>
+                                        <p>$90</p>
+                                    </div>
+                                    <div class="week-price">
+                                        <p>3 Weeks Refill</p>
+                                        <p>$110</p>
+                                    </div>
+                                </div>
+                                <div class="price-card">
+                                    <p class="price-list-title">Promotional Price List</p>
+                                    <div class="p-3">
+                                        <p><b>1. Full set of Premium Mink individual Extension: 100 Lashes Per Eye Worth $130 @ $60</b>(2times after intial visit)</p>
+                                        <p><b>2. Full set of Premium Mink individual Extension: 120 Lashes Per Eye Worth $150 @ $75</b>(2times after intial visit)</p>
+                                        <p><b>3. Full set of Premium Mink individual Extension: 170 Lashes Per Eye Worth $170 @ $90</b>(2times after intial visit)</p>
+                                    </div>
+                                    <p class="price-list-sub-title">New Set Prices</p>
+                                    <p>1. Full set of Premium Mink individual Extension: 100 Pieces Per Eye</p>
+                                    <p>2. Full set of Premium Mink individual Extension: 120 Pieces Per Eye</p>
+                                    <p>3. Full set of Premium Mink individual Extension: 170 Pieces Per Eye</p>
+                                </div>
+                            </div>
+                            <div class="price-list-content">
+                                <div class="price-card">
+                                    <p class="price-list-title">Lashes Touch ups</p>
+                                    <p class="price-list-sub-title">A. Touch Ups for 100 Premium Mink Individual Extension</p>
+                                    <div class="week-price">
+                                        <p>1 Week Refill</p>
+                                        <p>$40</p>
+                                    </div>
+                                    <div class="week-price">
+                                        <p>2 Weeks Refill</p>
+                                        <p>$52</p>
+                                    </div>
+                                    <div class="week-price">
+                                        <p>3 Weeks Refill</p>
+                                        <p>170</p>
+                                    </div>
+                                    <p class="price-list-sub-title">B. Touch Ups for 120 Premium Mink Individual Extension</p>
+                                    <div class="week-price">
+                                        <p>1 Week Refill</p>
+                                        <p>$45</p>
+                                    </div>
+                                    <div class="week-price">
+                                        <p>2 Weeks Refill</p>
+                                        <p>$57</p>
+                                    </div>
+                                    <div class="week-price">
+                                        <p>3 Weeks Refill</p>
+                                        <p>$80</p>
+                                    </div>
+                                    <p class="price-list-sub-title">C. Touch Ups for 140 Premium Mink Individual Extension</p>
+                                    <div class="week-price">
+                                        <p>1 Week Refill</p>
+                                        <p>$52</p>
+                                    </div>
+                                    <div class="week-price">
+                                        <p>2 Weeks Refill</p>
+                                        <p>$65</p>
+                                    </div>
+                                    <div class="week-price">
+                                        <p>3 Weeks Refill</p>
+                                        <p>$85</p>
+                                    </div>
+                                </div>
+                                <div class="price-card">
+                                    <p class="price-list-sub-title">Lashes Lift</p>
+                                    <div class="week-price">
+                                        <p>1 Lash Lift</p>
+                                        <p>$80</p>
+                                    </div>
+                                    <div class="week-price">
+                                        <p>2 Lash Tinting</p>
+                                        <p>$40</p>
+                                    </div>
 
-            <br>Lash Paradise Family 🙏🙏
-          </p>
+                                    <div class="week-price">
+                                        <p>3 Lash Lift & Tinting</p>
+                                        <p>$110</p>
+                                    </div>
+                                    <p class="price-list-sub-title">Brow Lift</p>
+                                    <div class="week-price">
+                                        <p>1 Eyebrow Lift</p>
+                                        <p>$65</p>
+                                    </div>
+                                    <div class="week-price">
+                                        <p>2 Eyebrow Tinting</p>
+                                        <p>$35</p>
+                                    </div>
+                                    <div class="week-price">
+                                        <p>3 Eyebrow Lift & Tinting</p>
+                                        <p>$95</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="packages2" class="container mt-3">
+                        <h1 class="mb-3 pt-3 pb-2">
+                            <b>More Services</b>
+                        </h1>
+                        <div class="row container">
+                            <div class="container pt-2" style="background-color: white">
+                                <div class="row">
+                                    <div class="col-lg-6 col-md-4 col-sm-12">
+                                        <img src="./images/img12.jpg" class="img-fluid" alt="" />
+                                    </div>
+                                    <div class="col-lg-6 col-md-8 col-sm-12" style="background-color: antiquewhite">
+                                        <h5 class="card-title" style="padding-top: 2rem; color: #e3ae53">
+                                            Lashes Touch Ups/Refills
+                                        </h5>
+                                        <p class="card-text aboutDetails" style="color: #333">
+                                            👉 Touch ups can help eliminate the gaps that begin to make
+                                            your lashes look a little ragged and less neat. We recommend
+                                            getting a touch up every 2 to 3 weeks to maintain your
+                                            thick-lashed look indefinitely without having to pay for a
+                                            full eyelash extension procedure each time.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="container pt-5">
+                                <div class="row" style="background-color: white">
+                                    <div class="col-lg-6 col-md-8 col-sm-12 order-2 order-lg-1" style="background-color: #e6c279">
+                                        <h5 class="card-title" style="padding-top: 2rem; color: #e17ea7">
+                                            At Lash Paradise we offer
+                                        </h5>
+                                        <p class="card-text aboutDetails" style="color: #333">
+                                            &#8226; 1 Week Touch Ups ( between 5 to 7 days is considered
+                                            one week , 70% lashes intact)
+                                        </p>
+                                        <p class="card-text aboutDetails" style="color: #333">
+                                            &#8226; 2 Weeks Touch Ups ( between 9 to 14 days, 50% lashes
+                                            intact)
+                                        </p>
+                                        <p class="card-text aboutDetails" style="color: #333">
+                                            &#8226; 3 Weeks Touch Ups ( between 16-21 days, 35% lashes
+                                            intact)
+                                        </p>
+                                    </div>
+                                    <div class="col-lg-6 col-md-4 col-sm-12 order-1 order-lg-2">
+                                        <img src="./images/img9.jpg" class="img-fluid" alt="" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="container pt-5" style="background-color: white">
+                                <div class="row">
+                                    <div class="col-lg-6 col-md-4 col-sm-12">
+                                        <img src="./images/img1.jpg" class="img-fluid" alt="" />
+                                    </div>
+                                    <div class="col-lg-6 col-md-8 col-sm-12" style="background-color: antiquewhite">
+                                        <h5 class="card-title" style="padding-top: 2rem; color: #e3ae53">
+                                            Additional Services
+                                        </h5>
+                                        <p class="card-text aboutDetails">
+                                            &#8226; Extensions Removal
+                                        </p>
+                                        <p class="card-text aboutDetails">&#8226; Bottom Lashes</p>
+                                        <p class="card-text aboutDetails">
+                                            &#8226; Bottom Lashes Refill
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="container pt-5 pb-5" style="background-color: white">
+                                <div class="row">
+                                    <div class="col-lg-6 col-md-8 col-sm-12 order-2 order-lg-1" style="background-color: #e6c279">
+                                        <h5 class="card-title" style="padding-top: 2rem; color: #e17ea7">
+                                            Packages Price
+                                        </h5>
+                                        <p class="card-text aboutDetails">
+                                            &#8226; Five Times of 80 Pieces Per Eye Premium Mink
+                                            Individual Extension @$ 325 (Regular)
+                                        </p>
+                                        <p class="card-text aboutDetails">
+                                            &#8226; Five Times of 100 Pieces Per Eye Premium Mink
+                                            Individual Extension @$ 375 (Regular)
+                                        </p>
+                                        <p class="card-text aboutDetails">
+                                            &#8226; Five Times of 120 Pieces Per Eye Premium Mink
+                                            Individual Extension @$ 425 (Regular)
+                                        </p>
+                                        <p class="card-text aboutDetails">
+                                            &#8226; Five Times of 120 Pieces Per Eye Premium Mink
+                                            Individual Extension @$ 425 (Regular)
+                                        </p>
+                                        <p class="card-text aboutDetails">
+                                            &#8226; Five Times of 140 Pieces Per Eye Premium Mink
+                                            Individual Extension @$ 475 (Regular)
+                                        </p>
+                                    </div>
+                                    <div class="col-lg-6 col-md-4 col-sm-12 order-1 order-lg-2">
+                                        <img src="./images/img6.jpg " class="img-fluid" alt=" " />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
         </div>
-        <div class="row justify-content-between">
-          <div class="col-lg-6 col-md-4 col-sm-12 text-md-center pt-5">
-            <img src="./images/logo.jpeg" class="img-fluid" width="100%" height="20" alt="logo" />
-          </div>
-
-          <div class="col-lg-6 col-md-8 col-sm-12 align-content-left pl-5 pt-5">
-            <div class="row justify-content-left">
-              <h1><b>About Us</b></h1>
-              <p class="aboutDetails">
-                Lash Paradise is committed to live up to its name, by making
-                the experience of each individual who visits most welcoming,
-                offering the best service to the full satisfaction at the hand
-                of our experienced Esthetician while enjoying the serene
-                ambience and friendly dealing through the best possible
-                convenient dealings and thus, make effort to establish
-                connection. We proudly offer our specialization in the
-                technique called Individual Eyelash Extension. Our highly
-                experienced estheticians meticulously apply single strands of
-                synthetic, undetectable, weightless enhancement to replicate a
-                natural lashes, by extending the length and thickness to your
-                natural lashes turning them into beautiful and luscious look.
-              </p>
+        <div id="contact1" class="Contact">
+            <h2 class="mb-3 contacttext container pt-3 pb-2">Location and Contact</h2>
+            <div class="container">
+                <div class="row">
+                    <div class="col text-black pt-5">
+                        <ul class="contact-decoration">
+                            <label for="exampleInputEmail1"><b>Location</b></label>
+                            <li>
+                                <a>Lash Paradise, 39W 32nd St Suite,<br />
+                                    Suite 1100, New York , NY-10001</a>
+                            </li>
+                            <li>
+                                <a>
+                                    Call @ (212) 457-7320,<br />
+                                    Text @ (646) 592-7597,</a>
+                            </li>
+                            <li>
+                                <a>Email: helpdesk@lashparadise.net<br />
+                                    correspond@lashparadise.net
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
-    </div>
-    <!-- packages -->
-    <div id="packages1" class="packages pt-5 pb-5">
-      <h1 class="mb-3 container pt-3 pb-2"><b>Packages</b></h1>
-      <div class="container">
-        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-          <ol class="carousel-indicators">
-            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="7"></li>
-          </ol>
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img class="w-100 carousel-image" src="images/img7.jpg" alt="..." />
-              <div class="carousel-caption">
-                <h5 style="color: #e3ae53">
-                  80 Pcs - Full set of premium mink individual extension
-                </h5>
-                <p>
-                  80 Pieces Per Eye Worth $110 @ $45 (First Time Customer
-                  Only)
-                </p>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <img class="w-100 carousel-image" src="images/img3.jpg" alt="..." />
-              <div class="carousel-caption">
-                <h5 style="color: #e3ae53">
-                  80 Pcs - Full set of premium mink individual extension with
-                  two week Refill
-                </h5>
-                <p>80 Per Eye worth $155 @ $75 (First Time Customer Only)</p>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <img class="w-100 carousel-image" src="images/img11.jpg" alt="..." />
-              <div class="carousel-caption">
-                <h5 style="color: #e3ae53">
-                  100 Pcs - Full set of premium mink individual extension
-                </h5>
-                <p>
-                  100 Pieces Per Eye Worth $130 @ $50 (First Time Customer
-                  Only)
-                </p>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <img class="w-100 carousel-image" src="images/img10.jpg" alt="..." />
-              <div class="carousel-caption">
-                <h5 style="color: #e3ae53">
-                  100 Pcs - Full Set of Premium Mink Individual Extensions
-                  with Two-Week Refill
-                </h5>
-                <p>100 Per Eye worth $175 @ $85 (First Time Customer Only)</p>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <img class="w-100 carousel-image" src="images/c5.jpg" alt="..." />
-              <div class="carousel-caption">
-                <h5 style="color: #e3ae53">
-                  120 Pcs - Full Set of Premium Mink Individual Extension
-                </h5>
-                <p>
-                  120 Pieces Per Eye Worth $150 @ $55 ( First Time Customer
-                  Only)
-                </p>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <img class="w-100 carousel-image" src="images/c6.jpg" alt="..." />
-              <div class="carousel-caption">
-                <h5 style="color: #e3ae53">
-                  120 Pcs - Full Set of Premium Mink Individual Extensions
-                  with Two-Week Refill
-                </h5>
-                <p>120 Per Eye worth $200 @ $95 (First Time Customer Only)</p>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <img class="w-100 carousel-image" src="images/img4.jpg" alt="..." />
-              <div class="carousel-caption">
-                <h5 style="color: #e3ae53">
-                  140 Pcs - Full Set of Premium Mink Individual Extension
-                </h5>
-                <p>
-                  140 Pieces Per Eye Worth $170 @ $65 (First Time Customer
-                  Only)
-                </p>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <img class="w-100 carousel-image" src="images/img5.jpg" alt="..." />
-              <div class="carousel-caption">
-                <h5 style="color: #e3ae53">
-                  140 Pcs - Full Set of Premium Mink Individual Extensions
-                  with Two-Week Refill
-                </h5>
-                <p>
-                  140 Per Eye worth $225 @ $110 (First Time Customer Only)
-                </p>
-              </div>
-            </div>
-          </div>
-          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-          </a>
-          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-          </a>
-        </div>
-      </div>
-      <div id="packages2" class="container mt-3" style="padding-top: 7rem !important">
-        <h1 class="mb-3 pt-3 pb-2" style="margin-bottom: 3rem !important">
-          <b>More Services</b>
-        </h1>
-        <div class="row container">
-          <div class="container pt-2" style="background-color: white">
-            <div class="row">
-              <div class="col-lg-6 col-md-4 col-sm-12">
-                <img src="./images/img8.jpg" class="img-fluid" alt="" />
-              </div>
-              <div class="col-lg-6 col-md-8 col-sm-12" style="background-color: antiquewhite">
-                <h5 class="card-title" style="padding-top: 2rem; color: #e3ae53">
-                  Lashes Touch Ups/Refills
-                </h5>
-                <p class="card-text aboutDetails" style="color: #333">
-                  👉 Touch ups can help eliminate the gaps that begin to make
-                  your lashes look a little ragged and less neat. We recommend
-                  getting a touch up every 2 to 3 weeks to maintain your
-                  thick-lashed look indefinitely without having to pay for a
-                  full eyelash extension procedure each time.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="container pt-5">
-            <div class="row" style="background-color: white">
-              <div class="col-lg-6 col-md-8 col-sm-12 order-2 order-lg-1" style="background-color: #e6c279">
-                <h5 class="card-title" style="padding-top: 2rem; color: #e17ea7">
-                  At Lash Paradise we offer
-                </h5>
-                <p class="card-text aboutDetails" style="color: #333">
-                  &#8226; 1 Week Touch Ups ( between 5 to 7 days is considered
-                  one week , 70% lashes intact)
-                </p>
-                <p class="card-text aboutDetails" style="color: #333">
-                  &#8226; 2 Weeks Touch Ups ( between 9 to 14 days, 50% lashes
-                  intact)
-                </p>
-                <p class="card-text aboutDetails" style="color: #333">
-                  &#8226; 3 Weeks Touch Ups ( between 16-21 days, 35% lashes
-                  intact)
-                </p>
-              </div>
-              <div class="col-lg-6 col-md-4 col-sm-12 order-1 order-lg-2">
-                <img src="./images/img9.jpg" class="img-fluid" alt="" />
-              </div>
-            </div>
-          </div>
-          <div class="container pt-5" style="background-color: white">
-            <div class="row">
-              <div class="col-lg-6 col-md-4 col-sm-12">
-                <img src="./images/img1.jpg" class="img-fluid" alt="" />
-              </div>
-              <div class="col-lg-6 col-md-8 col-sm-12" style="background-color: antiquewhite">
-                <h5 class="card-title" style="padding-top: 2rem; color: #e3ae53">
-                  Additional Services
-                </h5>
-                <p class="card-text aboutDetails">
-                  &#8226; Extensions Removal
-                </p>
-                <p class="card-text aboutDetails">&#8226; Bottom Lashes</p>
-                <p class="card-text aboutDetails">
-                  &#8226; Bottom Lashes Refill
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="container pt-5 pb-5" style="background-color: white">
-            <div class="row">
-              <div class="col-lg-6 col-md-8 col-sm-12 order-2 order-lg-1" style="background-color: #e6c279">
-                <h5 class="card-title" style="padding-top: 2rem; color: #e17ea7">
-                  Packages Price
-                </h5>
-                <p class="card-text aboutDetails">
-                  &#8226; Five Times of 80 Pieces Per Eye Premium Mink
-                  Individual Extension @$ 325 (Regular)
-                </p>
-                <p class="card-text aboutDetails">
-                  &#8226; Five Times of 100 Pieces Per Eye Premium Mink
-                  Individual Extension @$ 375 (Regular)
-                </p>
-                <p class="card-text aboutDetails">
-                  &#8226; Five Times of 120 Pieces Per Eye Premium Mink
-                  Individual Extension @$ 425 (Regular)
-                </p>
-                <p class="card-text aboutDetails">
-                  &#8226; Five Times of 120 Pieces Per Eye Premium Mink
-                  Individual Extension @$ 425 (Regular)
-                </p>
-                <p class="card-text aboutDetails">
-                  &#8226; Five Times of 140 Pieces Per Eye Premium Mink
-                  Individual Extension @$ 475 (Regular)
-                </p>
-              </div>
-              <div class="col-lg-6 col-md-4 col-sm-12 order-1 order-lg-2">
-                <img src="./images/img6.jpg " class="img-fluid" alt=" " />
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div id="contact1" class="Contact">
-    <h2 class="mb-3 contacttext container pt-3 pb-2">Location and Contact</h2>
-    <div class="container">
-      <div class="row">
-        <div class="col text-black pt-5">
-          <ul class="contact-decoration">
-            <label for="exampleInputEmail1"><b>Location</b></label>
-            <li>
-              <a>Lash Paradise, 39W 32nd St Suite,<br />
-                Suite 1100, New York , NY-10001</a>
-            </li>
-            <li>
-              <a>
-                Call @ (212) 457-7320,<br />
-                Text @ (646) 592-7597,</a>
-            </li>
-            <li>
-              <a>Email: helpdesk@lashparadise.net<br />
-                correspond@lashparadise.net
-              </a>
-            </li>
-          </ul>
-        </div>
-        <div class="col text-black pb-5">
-          <form>
-            <div class="form-group">
-              <label for="exampleInputEmail1"><b>Contact Us</b></label>
-              <small id="emailHelp" class="form-text text-muted">We'll never share your email and number with anyone
-                else.</small>
-              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-                placeholder="your Email ..." />
-            </div>
-            <div class="form-group">
-              <input type="text" class="form-control" id="exampleInputName" placeholder="your name ..." />
-            </div>
-            <div class="form-group">
-              <input type="number" class="form-control" id="exampleInputNumber" placeholder="your number ..." />
-            </div>
-            <div class="form-group">
-              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
-                placeholder="your messages ..."></textarea>
-            </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
-          </form>
-        </div>
-      </div>
-    </div>
-  </div>
-</body>
+    </body>
 
 </html>

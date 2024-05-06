@@ -1,112 +1,171 @@
 html {
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
 .header {
-  font-family: "MonteCarlo", cursive;
+    font-family: "MonteCarlo", cursive;
 }
 
 .navigation-link {
-  border: 2px solid transparent;
-  color: #333;
+    border: 2px solid transparent;
+    color: #333;
 }
 
 .nav {
-  padding-bottom: 2rem;
+    padding-bottom: 2rem;
 }
 
 .navigation-link:hover {
-  text-decoration: none;
-  border-bottom: 2px solid #e3ae53;
-  transition: 0.5s ease;
-  color: #e3ae53;
+    text-decoration: none;
+    border-bottom: 2px solid #e3ae53;
+    transition: 0.5s ease;
+    color: #e3ae53;
 }
 
 .text-black {
-  color: black;
+    color: black;
 }
 .nav-text {
-  text-align: right;
-  margin-right: 20px;
+    text-align: right;
+    margin-right: 20px;
 }
 
 .contact-decoration {
-  list-style: none;
+    list-style: none;
 }
 
 .header-wrapper {
-  background: #ffff;
-  width: 100%;
-  border-bottom: 1px solid #e6aec5;
-  /* filter: drop-shadow(6px 6px 3px grey); */
+    background: #ffff;
+    width: 100%;
+    border-bottom: 1px solid #e6aec5;
+    /* filter: drop-shadow(6px 6px 3px grey); */
 }
 
 .gallery {
-  background: #d1a775;
+    background: #d1a775;
 }
 
 .packages {
-  text-align: center;
-  border-bottom: grey;
+    text-align: center;
+    border-bottom: grey;
 }
 
 #packages1 {
-  /* background-color: #fce5eb; */
+    /* background-color: #fce5eb; */
 }
 
 #packages2 {
-  /* background-color: #f4deb8; */
+    /* background-color: #f4deb8; */
 }
 
 .Contact {
-  background: #fcd9e0;
-  text-align: center;
-  /* height: 200px; */
+    background: #fcd9e0;
+    text-align: center;
+    /* height: 200px; */
 }
 
 .aboutDetails {
-  /* text-align: left; */
-  font-size: 10pt;
-  color: #333;
+    /* text-align: left; */
+    font-size: 10pt;
+    color: #333;
 }
 
 .carousel-image {
-  height: 30rem;
-  object-fit: cover;
+    height: 30rem;
+    object-fit: cover;
 }
 .name {
-  width: 90%;
-  background-color: #444444;
-  height: 20px;
+    width: 90%;
+    background-color: #444444;
+    height: 20px;
 }
 .email {
-  width: 90%;
-  background-color: #444444;
-  height: 20px;
-  margin-top: 2%;
+    width: 90%;
+    background-color: #444444;
+    height: 20px;
+    margin-top: 2%;
 }
 .message {
-  width: 90%;
+    width: 90%;
 
-  height: 100px;
-  margin-top: 2%;
-  background-color: #444444;
+    height: 100px;
+    margin-top: 2%;
+    background-color: #444444;
 }
 input {
-  background: transparent;
-  border: 0px;
+    background: transparent;
+    border: 0px;
 }
 @media (max-width: 680px) {
-  .aboutDetails {
-    /* text-align: left; */
-    font-size: 8pt;
-    color: #333;
-  }
+    .aboutDetails {
+        /* text-align: left; */
+        font-size: 8pt;
+        color: #333;
+    }
 
-  h1 {
-    font-size: 1.5rem !important;
-  }
+    h1 {
+        font-size: 1.5rem !important;
+    }
+
+    .container {
+        .price-list-container {
+            .price-list-content {
+                .price-card {
+                    width: 19rem;
+                }
+            }
+        }
+    }
 }
 
 .contacttext {
-  color: black;
+    color: black;
+}
+
+.price-list-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 15px;
+
+    .price-list-content {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        gap: 15px;
+
+        .price-card {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border-radius: 10px;
+            box-shadow:0px 0px 5px #808080;
+            width:34rem;
+            padding: 1rem;
+
+            .price-list-title {
+                color: brown;
+                font-size: 16pt;
+                font-weight: 800;
+            }
+
+            .price-list-sub-title {
+                color: brown;
+                font-size: 14pt;
+                font-weight: 800;
+            }
+
+            .price-list-sub-sub-title {
+                color: brown;
+                font-size: 12pt;
+                font-weight: 800;
+            }
+
+            .week-price {
+                display: flex;
+                justify-content: space-between;
+                width: 15rem;
+                font-weight: 800;
+            }
+        }
+    }
 }
