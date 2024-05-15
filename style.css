@@ -72,6 +72,7 @@ html {
 .carousel-image {
     height: 30rem;
     object-fit: cover;
+    object-position: center center;
 }
 .name {
     width: 90%;
